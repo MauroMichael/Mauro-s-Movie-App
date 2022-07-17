@@ -2,6 +2,7 @@ export const ADD_MOVIE_FAVORITE = 'ADD_MOVIE_FAVORITE';
 export const GET_MOVIES = 'GET_MOVIES';
 export const GET_MOVIE_DETAIL = 'GET_MOVIE_DETAIL';
 export const REMOVE_MOVIE_FAVORITE = 'REMOVE_MOVIE_FAVORITE';
+export const CLEAR_MOVIE_DETAIL = 'CLEAR_MOVIE_DETAIL';
 
 const apiKey = '2621b91a';
 
@@ -31,6 +32,12 @@ export function getMovieDetail(id) {
             dispatch({type: GET_MOVIE_DETAIL,
                        payload: json})
         })
+    }
+}
+
+export function clearMovieDetail() {
+    return {
+        type: CLEAR_MOVIE_DETAIL
     }
 }
 

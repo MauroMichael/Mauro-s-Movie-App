@@ -1,11 +1,13 @@
 import './Search.css';
 import { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { getMovies } from '../actions'
+import { getMovies } from '../actions';
+import { useNavigate } from 'react-router-dom';
 
 function Search() {
     const [title, setTitle] = useState('');
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     function handleChange(e) {
         setTitle(e.target.value)
@@ -15,6 +17,7 @@ function Search() {
         e.preventDefault();
         dispatch(getMovies(title));
         setTitle('');
+        navigate('/')
     }
 
     return (

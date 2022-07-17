@@ -4,7 +4,7 @@ import Search from './Search';
 function NavBar() {
     return (
         < div className='navbar-container'>
-        <h1>This is the NavBar</h1>
+        <h1>Mauro's Movie App</h1>
         <Search />
         </div>
     )

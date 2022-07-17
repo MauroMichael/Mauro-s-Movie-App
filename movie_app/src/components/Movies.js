@@ -10,13 +10,13 @@ function Movies() {
         <div className='movies-container'>
             {
                 movies.map(m => (
-                    <Movie 
-                    key={m.imdbID}
-                    id={m.imdbID}
-                    title={m.Title}
-                    year={m.Year}
-                    poster={m.Poster}
-                    />
+                        <Movie 
+                        key={m.imdbID}
+                        id={m.imdbID}
+                        title={m.Title}
+                        year={m.Year}
+                        poster={m.Poster}
+                        />
                 )
 
                 )
