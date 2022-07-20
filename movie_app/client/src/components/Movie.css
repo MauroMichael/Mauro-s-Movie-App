@@ -1,0 +1,43 @@
+.movie-container {   
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+    background-color: rgb(61, 58, 58, .9);
+    border-radius: 1rem;
+    border: black solid 5px;
+}
+
+.movie-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding-right: 10px;
+}
+
+.movie-img {
+    margin: 10px;
+    border: 2px solid yellow;
+    border-radius: 1rem;
+    max-width: 90px;
+    height: auto;
+}
+
+.movie-title {
+    color: white;
+    margin-left: 30px;
+    
+}
+
+.movie-name a {
+    text-decoration: none;
+}
+
+.movie-year {
+    margin-top: 26px;
+    margin-left: 45px;
+}
+
+.movie-favorite-button {
+    margin-bottom: 15px;
+}

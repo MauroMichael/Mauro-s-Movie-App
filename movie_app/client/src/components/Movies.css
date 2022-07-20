@@ -1,0 +1,9 @@
+.movies-container {
+    color: white;
+    background: transparent;
+}
+
+.movies-item {
+    background-color: aqua;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.navbar-container {
+    background-color: yellow;
+    color: black;
+    border-radius: 1rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.navbar-contents {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.app-name {
+    margin-left: 2%;
+    color: black;
+}
+
+.navbar-favorites {
+    font-weight: bolder;
+    color: black;
+}
+
+.navbar-about {
+    margin-right: 3%;
+    color: black;
+    font-weight: bolder;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
